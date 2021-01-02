@@ -391,7 +391,7 @@ summary {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }html:-webkit-full-screen {
-	background-color: #f4f4f4;
+	background-color: #FFB433;
 }body.tc-body {
 	font-size: 14px;
 	line-height: 20px;
@@ -400,7 +400,7 @@ summary {
 
 
 	color: #333333;
-	background-color: #f4f4f4;
+	background-color: #FFB433;
 	fill: #333333;
 }/**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -609,7 +609,7 @@ a.tc-tiddlylink:hover {
 	border-radius: 20px;
 }.tc-tiddler-dragger-cover {
 	position: absolute;
-	background-color: #f4f4f4;
+	background-color: #FFB433;
 }.tc-dropzone {
 	position: relative;
 }.tc-dropzone.tc-dragover:before {
@@ -863,8 +863,8 @@ a.tc-tiddlylink:hover {
 }@media (max-width: 959px) {.tc-show-sidebar-btn svg.tc-image-chevron-left, .tc-hide-sidebar-btn svg.tc-image-chevron-right {
 		transform: rotate(-90deg);
 	}}.tc-sidebar-header {
-	color: #acacac;
-	fill: #acacac;
+	color: #452C00;
+	fill: #452C00;
 	max-width: 420px;
 	font-size: 1.3em;
 	line-height: 1.3em
@@ -874,7 +874,7 @@ a.tc-tiddlylink:hover {
 	margin-top: 3px;
 	margin-bottom: 3px;
 }.tc-sidebar-header .tc-missing-tiddler-label {
-	color: #acacac;
+	color: #452C00;
 }.tc-advanced-search input {
 	width: 60%;
 }.tc-search a svg {
@@ -1549,7 +1549,7 @@ a.tc-tiddlylink:hover {
 }.tc-sidebar-lists .tc-tab-buttons {
 	margin-bottom: -1px;
 }.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
-	background-color: #f4f4f4;
+	background-color: #FFB433;
 	color: ;
 	border-left: 1px solid #d8d8d8;
 	border-top: 1px solid #d8d8d8;
@@ -1572,7 +1572,7 @@ a.tc-tiddlylink:hover {
 	border-right: 1px solid #ccc;
 	margin-bottom: inherit;
 }.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button.tc-tab-selected {
-	background-color: #f4f4f4;
+	background-color: #FFB433;
 	border: none;
 }/*
 ** Manager
@@ -1911,12 +1911,12 @@ a.tc-tiddlylink:hover {
 */.tc-sidebar-lists .tc-table-of-contents {
 	white-space: nowrap;
 }.tc-table-of-contents button {
-	color: #acacac;
+	color: #452C00;
 }.tc-table-of-contents svg {
 	width: 0.7em;
 	height: 0.7em;
 	vertical-align: middle;
-	fill: #acacac;
+	fill: #452C00;
 }.tc-table-of-contents ol {
 	list-style-type: none;
 	padding-left: 0;
@@ -2125,9 +2125,9 @@ a.tc-tiddlylink:hover {
 }.tc-tree ol ol {
     	padding-left: 1em;    
 }.tc-tree button { 
-    	color: #acacac;
+    	color: #452C00;
 }.tc-tree svg {
-     	fill: #acacac;
+     	fill: #452C00;
 }.tc-tree span svg {
     	width: 1em;
     	height: 1em;
