@@ -7,7 +7,7 @@ Error message and password prompt
 */
 
 .tc-error-form {
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
 	color: #fff;
 	z-index: 20000;
 	position: fixed;
@@ -38,7 +38,7 @@ Error message and password prompt
 }
 
 .tc-password-wrapper {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
 	z-index: 20000;
 	position: fixed;
 	text-align: center;
@@ -127,7 +127,7 @@ Improve consistency of default fonts in all browsers. (https://github.com/sindre
 */
 
 body {
-  font-family: font-family: 'Roboto', sans-serif;
+  font-family:
     system-ui,
     -apple-system, /* Firefox supports this but not yet `system-ui` */
     'Segoe UI',
@@ -386,12 +386,12 @@ summary {
 }/*
 ** Basic element styles
 */html, body {
-	font-family: 'Roboto', sans-serif; system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 	text-rendering: optimizeLegibility; /* Enables kerning and ligatures etc. */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }html:-webkit-full-screen {
-	background-color: #FFB433;
+	background-color: #f4f4f4;
 }body.tc-body {
 	font-size: 14px;
 	line-height: 20px;
@@ -400,7 +400,7 @@ summary {
 
 
 	color: #333333;
-	background-color: #FFB433;
+	background-color: #f4f4f4;
 	fill: #333333;
 }/**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -439,7 +439,7 @@ summary {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }blockquote.tc-big-quote {
-	font-family: 'Roboto', sans-serif;
+	font-family: Georgia, serif;
 	position: relative;
 	background: #f5f5f5;
 	border-left: none;
@@ -461,7 +461,7 @@ summary {
     left: -50px;
     top: 42px;
 }blockquote.tc-big-quote:after {
-	font-family: 'Roboto', sans-serif;
+	font-family: Georgia, serif;
 	color: #bbb;
 	content: close-quote;
 	font-size: 8em;
@@ -609,7 +609,7 @@ a.tc-tiddlylink:hover {
 	border-radius: 20px;
 }.tc-tiddler-dragger-cover {
 	position: absolute;
-	background-color: #FFB433;
+	background-color: #f4f4f4;
 }.tc-dropzone {
 	position: relative;
 }.tc-dropzone.tc-dragover:before {
@@ -863,18 +863,15 @@ a.tc-tiddlylink:hover {
 }@media (max-width: 959px) {.tc-show-sidebar-btn svg.tc-image-chevron-left, .tc-hide-sidebar-btn svg.tc-image-chevron-right {
 		transform: rotate(-90deg);
 	}}.tc-sidebar-header {
-	color: #452C00;
-	fill: #452C00;
-	max-width: 420px;
-	font-size: 1.3em;
-	line-height: 1.3em
+	color: #acacac;
+	fill: #acacac;
 }.tc-sidebar-header .tc-title a.tc-tiddlylink-resolves {
 	font-weight: 300;
 }.tc-sidebar-header .tc-sidebar-lists p {
 	margin-top: 3px;
 	margin-bottom: 3px;
 }.tc-sidebar-header .tc-missing-tiddler-label {
-	color: #452C00;
+	color: #acacac;
 }.tc-advanced-search input {
 	width: 60%;
 }.tc-search a svg {
@@ -999,7 +996,7 @@ a.tc-tiddlylink:hover {
 }.tc-site-title,
 .tc-titlebar {
 	font-weight: 300;
-	font-size: 1.7em;
+	font-size: 2.35em;
 	line-height: 1.35em;
 	color: #182955;
 	margin: 0;
@@ -1016,7 +1013,9 @@ a.tc-tiddlylink:hover {
 }.tc-titlebar img {
 	height: 1em;
 }.tc-subtitle {
-	display: none;
+	font-size: 0.9em;
+	color: #c0c0c0;
+	font-weight: 300;
 }.tc-subtitle .tc-tiddlylink {
 	margin-right: .3em;
 }.tc-tiddler-missing .tc-title {
@@ -1549,7 +1548,7 @@ a.tc-tiddlylink:hover {
 }.tc-sidebar-lists .tc-tab-buttons {
 	margin-bottom: -1px;
 }.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
-	background-color: #FFB433;
+	background-color: #f4f4f4;
 	color: ;
 	border-left: 1px solid #d8d8d8;
 	border-top: 1px solid #d8d8d8;
@@ -1572,7 +1571,7 @@ a.tc-tiddlylink:hover {
 	border-right: 1px solid #ccc;
 	margin-bottom: inherit;
 }.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button.tc-tab-selected {
-	background-color: #FFB433;
+	background-color: #f4f4f4;
 	border: none;
 }/*
 ** Manager
@@ -1911,12 +1910,12 @@ a.tc-tiddlylink:hover {
 */.tc-sidebar-lists .tc-table-of-contents {
 	white-space: nowrap;
 }.tc-table-of-contents button {
-	color: #452C00;
+	color: #acacac;
 }.tc-table-of-contents svg {
 	width: 0.7em;
 	height: 0.7em;
 	vertical-align: middle;
-	fill: #452C00;
+	fill: #acacac;
 }.tc-table-of-contents ol {
 	list-style-type: none;
 	padding-left: 0;
@@ -2125,9 +2124,9 @@ a.tc-tiddlylink:hover {
 }.tc-tree ol ol {
     	padding-left: 1em;    
 }.tc-tree button { 
-    	color: #452C00;
+    	color: #acacac;
 }.tc-tree svg {
-     	fill: #452C00;
+     	fill: #acacac;
 }.tc-tree span svg {
     	width: 1em;
     	height: 1em;
@@ -2274,13 +2273,13 @@ html body.tc-body h1, html body.tc-body h2, html body.tc-body h3, html body.tc-b
 
 /*FONT SUBTITLES*/
 
-.serif {font-family: 'Roboto', sans-serif; color: <<colour tiddler-editor-border>>font-size:10pt;}
+.serif {font-family: 'Arial', sans-serif; color: <<colour tiddler-editor-border>>font-size:10pt;}
 
-html body.tc-body .serif a.tc-tiddlylink-external {font-family: 'Roboto', sans-serif; font-size:12pt; line-height:normal;font-weight:normal;color:#666;}
+html body.tc-body .serif a.tc-tiddlylink-external {font-family: 'Arial', sans-serif;font-size:12pt; line-height:normal;font-weight:normal;color:#666;}
 
 /*FONT STUFF (colors)*/
 
-html body.tc-body .lightgraybk {background:#eee;padding:1px 4px px 4px;margin-bottom:2px;font-family: 'Roboto', sans-serif;}
+html body.tc-body .lightgraybk {background:#eee;padding:1px 4px px 4px;margin-bottom:2px;font-family:'Arial', sans-serif;}
 
 .red {color:red;}
 html body.tc-body .blue a {color:blue;}
